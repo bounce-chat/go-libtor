@@ -193,7 +193,7 @@ That's actually it! We've managed to get a Tor hidden service running from an An
 
 ## Credits
 
-This repository is maintained by Péter Szilágyi ([@karalabe](https://github.com/karalabe)), but authorship of all code contained inside belongs to the individual upstream projects.
+Original work done by [Péter Szilágyi](https://github.com/karalabe) [here](https://github.com/ipsn/go-libtor).
 
 ## License
 
