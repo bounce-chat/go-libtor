@@ -1,4 +1,4 @@
-module github.com/hkparker/go-libtor
+module github.com/bounce-chat/go-libtor
 
 go 1.13
 
