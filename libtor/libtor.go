@@ -1,7 +1,7 @@
 // Package libtor is a self-contained static tor library.
 package libtor
 
-// This file is a simplified clone from github.com/cretz/bine/process/embedded.
+// This file is a simplified clone from github.com/alexballas/bine/process/embedded.
 
 /*
 #include <stdlib.h>
@@ -28,7 +28,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/cretz/bine/process"
+	"github.com/alexballas/bine/process"
 )
 
 // ProviderVersion returns the Tor provider name and version exposed from the

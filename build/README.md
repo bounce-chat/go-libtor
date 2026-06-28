@@ -24,10 +24,10 @@ The goal of this library is to be a self-contained Tor package for Go. As such, 
 $ go get -u -v -x github.com/bounce-chat/go-libtor
 ```
 
-You'll also need the [`bine`](https://github.com/cretz/bine) bindings to interface with the library:
+You'll also need the [`bine`](https://github.com/alexballas/bine) bindings to interface with the library:
 
 ```
-go get -u github.com/cretz/bine/tor
+go get -u github.com/alexballas/bine/tor
 ```
 
 ## Installation (Go modules)
@@ -36,7 +36,7 @@ This library is compatible with Go modules. All you should need is to import `gi
 
 ## Usage
 
-The `go-libtor` project does not contain a full Go API to interface Tor with, rather only the smallest building block to start up an embedded instance. The reason is because there is already a solid Go project out there ([github.com/cretz/bine](https://github.com/cretz/bine)) which focuses on interfacing.
+The `go-libtor` project does not contain a full Go API to interface Tor with, rather only the smallest building block to start up an embedded instance. The reason is because there is already a solid Go project out there ([github.com/alexballas/bine](https://github.com/alexballas/bine)) which focuses on interfacing.
 
 Using both projects in combination however is straightforward:
 
@@ -51,7 +51,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/cretz/bine/tor"
+	"github.com/alexballas/bine/tor"
 	"github.com/bounce-chat/go-libtor"
 )
 
@@ -124,7 +124,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/cretz/bine/tor"
+	"github.com/alexballas/bine/tor"
 	"github.com/bounce-chat/go-libtor"
 )
 
